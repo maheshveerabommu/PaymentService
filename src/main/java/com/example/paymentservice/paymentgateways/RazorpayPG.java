@@ -11,7 +11,7 @@ public class RazorpayPG implements PaymentGateway{
     private RazorpayClient razorpayClient;
 
     public RazorpayPG(RazorpayClient razorpayClient){
-        this.razorpayClient=razorpayClient;
+        this.razorpayClient=razorpayClient; // Initialize the RazorpayClient
     }
 
     @Override
